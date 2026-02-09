@@ -183,6 +183,21 @@ body{
 .link-cta{ color:var(--accent-dark); font-weight:700; text-decoration:none; }
 .link-cta:hover{ text-decoration:underline; }
 
+/* Email button style */
+.email-cta{
+  display:inline-block;
+  background:linear-gradient(90deg,var(--accent),#2bb7e0);
+  color:white;
+  padding:8px 12px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:700;
+  margin-left:6px;
+  transition:transform .12s ease, box-shadow .12s ease;
+  box-shadow: 0 6px 18px rgba(23,195,178,0.08);
+}
+.email-cta:hover{ transform:translateY(-2px); box-shadow: 0 10px 26px rgba(23,195,178,0.12); }
+
 /* Responsive */
 @media (max-width:880px){
   .header{ padding:12px 18px; }
@@ -196,4 +211,5 @@ body{
   .logo{ width:40px; height:40px; font-size:0.95rem; }
   .chart-card{ height:340px; }
   .footer{ padding:10px 14px; }
+
 }
